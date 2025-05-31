@@ -1,0 +1,13 @@
+/* Default (mobile) */
+#chat-box {
+  border: 2px solid blue;
+  display: none;
+}
+
+/* Tablets and up*/
+@media screen and (min-width: 768px) {
+  #chat-box {
+    display: block;
+    flex: 3;
+  }
+}
